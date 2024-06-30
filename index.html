@@ -1,46 +1,95 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="3;url=http://8.138.157.234/">
-    <title>即将跳转到 Mybbs</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 20%;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        h1 {
-            font-size: 2.5em;
-            color: #4CAF50;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6em;
-        }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mcMybbs </title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="https://www.pixelbbs.cn/source/plugin/bphp_clouds/upload/4438/20240607/28c841131387337d2e8ec8c380bd3fef.jpg" type="image/jpeg">
 </head>
 <body>
-    <h1>请手动跳转到 Mybbs</h1>
-    <p>注意，Mybbs 的网址为 <a href="http://mcmybbs.xyz">mcmybbs.xyz</a>，但其正式访问地址为 <a href="http://8.138.157.234/进入">http://8.138.157.234/</a>。</p>
-    <p>你可以通过 <a href="http://mcmybbs.xyz">mcmybbs.xyz</a> 进入，当然也可以通过 <a href="http://8.138.157.234/">http://8.138.157.234/</a> 进入。</p>
-    <p>如果没有进入，可能是你的浏览器屏蔽了重定向。</p>
-    <p><a href="http://8.138.157.234/">手动进入</a></p>
-    <p>不安全？<a href="https://4cc8c1.cpolar.io/">点击进入安全镜像站</p>
-<script>
-    // JavaScript redirect
-    setTimeout(function() {
-        window.location.href = 'http://8.138.157.234/';
-    }, 3000); // 3秒后重定向
-</script>
+    <header>
+        <div class="container">
+            <h1>mcMybbs </h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#features">我们的优势</a></li>
+                    <li><a href="#join">加入我们</a></li>
+                    <li><a href="http://8.138.157.234/" target="_blank">访问官网</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>欢迎来到 mcMybbs </h2>
+                <p>您的 Minecraft 知识宝库！</p>
+                <a href="http://8.138.157.234/" class="cta-button" target="_blank">探索更多</a>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>了解我们</h2>
+                <p>**mcMybbs ** 是一个由  Minecraft 玩家和社区成员共同维护的在线资源论坛。我们致力于构建一个全方位的信息中心，涵盖 Minecraft 的各个方面，包括但不限于：</p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>联机教程</h3>
+                        <p>详细的游戏教程、攻略和技巧，助您从新手成长为高手。</p>
+                    </div>
+                    <div class="card">
+                        <h3>插件介绍</h3>
+                        <p>探索各类精彩插件，获取安装、使用及优化的最新信息。</p>
+                    </div>
+                    <div class="card">
+                        <h3>社区动态</h3>
+                        <p>及时更新 Minecraft 社区的最新消息、活动和赛事信息。</p>
+                    </div>
+                    <div class="card">
+                        <h3>玩家分享</h3>
+                        <p>展示来自玩家的优秀作品、经验分享和创新项目。</p>
+                    </div>
+                    <div class="card">
+                        <h3>技术支持</h3>
+                        <p>为玩家提供专业的技术支持，解答游戏中遇到的各种问题。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="container">
+                <h2>我们的优势</h2>
+                <div class="features-list">
+                    <div class="feature">
+                        <h3>新生代</h3>
+                        <p>新生代minecraft论坛 活力满满</p>
+                    </div>
+                    <div class="feature">
+                        <h3>丰富资源</h3>
+                        <p>提供全面的教程和资源，满足从基础到高级的各种需求。</p>
+                    </div>
+                    <div class="feature">
+                        <h3>社区互动</h3>
+                        <p>建立一个友好的社区环境，鼓励玩家们分享经验、交流心得。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="join">
+            <div class="container">
+                <h2>加入我们</h2>
+                <p>我们诚邀每一位对 Minecraft 充满热情的玩家加入 **mcMybbs ** 的大家庭。无论您是刚刚接触 Minecraft 的新手，还是已经在游戏中大展拳脚的老手，我们都欢迎您在这里找到属于您的空间。</p>
+                <div class="cta-container">
+                    <a href="http://8.138.157.234/" class="cta-button" target="_blank">进入我们的网站</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 mcMybbs . 版权所有。</p>
+        </div>
+    </footer>
 </body>
 </html>
